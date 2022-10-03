@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+}
+
+nav ol li a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #101010;
+    font-weight: 400;
+    font-size: 18px;  
+}
+
+.tel {
+    text-decoration: none;
+    font-size: 18px;
+    color: #A52424;
+}
+
+.header_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 150px;
+}
+
+.sign_up {
+    margin-top: -120px;
+}
+
+.sign_up .name {
+    color: #232323;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.sign_up .prof {
+    color: #101010;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    margin-bottom: 60px;
+}
+
+.btn {
+    font-family: "Montserrat";
+    padding: 20px 40px;
+    color: #A52424;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid #A52424;
+    background: white;
+    cursor: pointer;
+}
+
+.section_1 {
+    padding-bottom: 150px;
+}
+
+.section_1 .title {
+    color: #232323;
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 45px;
+}
+
+.sides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frame1 {
+    width: 340px;
+    height: 560px;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.frame1 .photo1 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.frame1 .name {
+    color: #A52424;
+    font-weight: 600;
+    font-size: 22px;
+    position: absolute;
+    margin: 470px 19px 60px 100px
+}
+
+.side2 {
+    max-width: 674px;
+    margin-top: -5px;
+}
+
+.side2 .title_about {
+    color: #A52424;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    padding-bottom: 20px;
+}
+
+.side2 .discription {
+    color: #232323;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.side2 .frame2 {
+    position: relative;
+    width: 567px;
+    height: 330px;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+    margin-left: auto;
+}
+
+.side2 img {
+    position: absolute;
+    top: 30px;
+    left: -105px;
+}
+
+.section2 {
+    padding-bottom: 150px;
+}
+
+.section2 .title:first-child {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.05em;
+    color: #232323;
+    margin-bottom: 50px;
+}
+
+.section2 .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .card {
+    width: 375px;
+}
+
+.section2 .card img {
+    margin-bottom: 20px;
+}
+
+.section2 .card .title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #101010;
+}
+
+.section2 .card .btn {
+    padding: 20px 60px;
+}
+
+.section3 {
+    padding-bottom: 150px;
+}
+
+.section3 .title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.05em;
+    color: #232323;
+    padding-bottom: 150px;
+}
+
+.section3 .block_price_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 .price_card:first-child {
+    margin-right: 150px;
+}
+
+.section3 .price_card {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 510px;
+    padding: 215px 40px 25px;
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+}
+
+.section3 .price_card img {
+    position: absolute;
+    top: -110px;
+    left: 100px;
+}
+
+.section3 .price_card .price_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #A52424;
+    margin-bottom: 25px;
+}
+
+.section3 .price_card .service .str {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.section3 .price_card .service .str:last-child {
+    margin-bottom: 25px;
+}
+
+.section3 .price_card .process {
+    color: #232323;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.section3 .price_card .result {
+    color: #232323;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.section3 .price_card .price {
+    color: #A52424;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0;
+}
+
+.section3 .price_card .price_order .btn {
+    padding: 20px 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.section3 .price_card .price_order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4 {
+    padding-bottom: 100px;
+}
+
+.section4 .title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.05em;
+    color: #232323;
+    padding-bottom: 50px;
+}
+
+.section4 .order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4 .foto {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.section4 .foto :nth-child(2) {
+    position: relative;
+    right: 35px;
+    box-shadow: 2px 4px 10px 1px rgba(35, 35, 35, 0.15);
+}
+
+.section4 .order form {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section4 .order form ::placeholder {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: rgba(35, 35, 35, 0.35);
+
+}
+
+.section4 .order form input {
+    padding: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: 0.5px solid rgba(35, 35, 35, 0.85);
+}
+
+.section4 .order form textarea {
+    padding: 20px;
+    resize: none;
+    outline: none;
+    border: 0.5px solid rgba(35, 35, 35, 0.85);
+    margin-bottom: 40px;
+}
+
+.section4 .order form .btn {
+    font-size: 24px;
+    letter-spacing: 0.05em;
+}
+
+footer {
+    border-top: 0.3px solid #232323;
+    padding: 35px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .social :nth-child(2) {
+    margin: 0 50px;
+}
+
+footer .container .tel {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
